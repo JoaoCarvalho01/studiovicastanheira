@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#f3bed8, #b83373);
+}
+
+.cabeca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  gap: 25px;
+}
+.cabeca p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.corpo {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.corpo p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+.botao {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: left;
+  padding: 10px;
+  box-shadow: 2px 6px 0px 3px #0000006b;
+  background-color: white;
+}
+
+.botao a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  padding-right: 50px;
+  text-align: center;
+}
+
+#icon {
+  width: 60px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#iconmap {
+  width: 40px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.botao.botao:hover {
+  box-shadow: inset -6px -4px 0px 3px #802d55e8;
+  scale: 0.98;
+}
+
+.botao.botao:active {
+  box-shadow: inset -6px -4px 0px 3px #802d55e8;
+  scale: 0.8;
+}
