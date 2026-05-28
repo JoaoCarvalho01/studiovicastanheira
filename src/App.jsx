@@ -1,5 +1,5 @@
 import "./App.css";
-import vitoriacapa from "./imgs/vitoriacapa.Jpeg";
+import vitoriacapa from "./imgs/vitoriacapa.jpeg";
 import placeholder from "./imgs/placeholder.png";
 import whatsapp from "./imgs/image.png";
 function App() {
