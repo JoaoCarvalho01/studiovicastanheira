@@ -9,6 +9,8 @@
 body {
   min-height: 100vh;
   background-image: linear-gradient(#f3bed8, #b83373);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .cabeca {
@@ -63,7 +65,8 @@ img {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
   padding-right: 50px;
-  text-align: center;
+  text-align: left;
+  min-width: 85%;
 }
 
 #icon {
@@ -88,6 +91,7 @@ a {
 .botao.botao:hover {
   box-shadow: inset -6px -4px 0px 3px #802d55e8;
   scale: 0.98;
+  transition: 0.3s;
 }
 
 .botao.botao:active {
